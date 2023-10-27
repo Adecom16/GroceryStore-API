@@ -18,18 +18,23 @@ This is a simple RESTful API for a Grocery Store built using Laravel. The API al
 - Composer
 - Laravel 8.x
 
-Usage
+# Grocery Store API
+
+## Usage
+
 You can interact with the API using tools like Postman or any other API testing tool. Here are the available endpoints:
 
-GET /api/products: Retrieve all products
-GET /api/products/{id}: Retrieve a specific product
-POST /api/products: Add a new product
-PUT /api/products/{id}: Update an existing product
-DELETE /api/products/{id}: Delete a product
-Make sure to replace {id} with the corresponding product ID.
+- `GET /api/products`: Retrieve all products
+- `GET /api/products/{id}`: Retrieve a specific product
+- `POST /api/products`: Add a new product
+- `PUT /api/products/{id}`: Update an existing product
+- `DELETE /api/products/{id}`: Delete a product
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Make sure to replace `{id}` with the corresponding product ID.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 You can use this template as your project's README file, providing users with the necessary information to understand, install, and use your Grocery Store API. Adjust the instructions and details according to your project's specific requirements and implementation.
